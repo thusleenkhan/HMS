@@ -12,5 +12,6 @@ Hospital Management System
 - **JavaScript**
 - **CI/CD (Continuous Integration / Continuous Deployment)**
 - **Docker**
+- **Rest Api**
 - **OpenAPI**
 - **Swagger UI**
