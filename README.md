@@ -1,4 +1,18 @@
 # HMS
 Hospital Management System
-# Tech Stack
-Spring boot, Spring security, jpa, mySQL, thymeleaf, html , css , bootstrap, java script, CI/CD , docker, open api, swagger ui
+# Technologies Used:
+
+Spring Boot
+Spring Security
+JPA (Java Persistence API)
+MySQL
+JUnit
+Thymeleaf
+HTML
+CSS
+Bootstrap
+JavaScript
+CI/CD (Continuous Integration / Continuous Deployment)
+Docker
+OpenAPI
+Swagger UI
