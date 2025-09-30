@@ -1,1 +1,19 @@
-Welcome to HMS
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}">
+    <script th:src="@{/webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js}"></script>
+  </head>
+  <body class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="text-center">
+      <h1 class="text-primary">Welcome to HMS</h1>
+      <!-- Thymeleaf Button with an action -->
+      <form th:action="@{/login}" method="get">
+        <button type="submit" class="btn btn-success">Click Me</button>
+      </form>
+    </div>
+  </body>
+</html>
