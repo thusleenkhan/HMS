@@ -10,5 +10,15 @@ public class PageController {
 	{
 		return "home";
 	}
+	@GetMapping("/login")
+	public String login()
+	{
+		return "login";
+	}
+	@GetMapping("/dashboard")
+	public String dashboard()
+	{
+		return "under-construction";
+	}
 
 }

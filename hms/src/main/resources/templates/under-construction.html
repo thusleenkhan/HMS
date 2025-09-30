@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}">
+    <style>
+        .construction-message {
+            margin-top: 20%;
+            text-align: center;
+            color: #333;
+        }
+        .construction-message h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ff6f00;
+        }
+        .construction-message p {
+            font-size: 1.25rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="construction-message">
+                    <h1>Under Construction</h1>
+                    <p>We're working hard to bring this page to life! Please check back later.</p>
+                    <div>
+                        <img src="https://via.placeholder.com/150" alt="Construction" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS & Popper.js (Optional but often included for interactivity) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+	<script th:src="@{/webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js}"></script>
+    
+</body>
+</html>
