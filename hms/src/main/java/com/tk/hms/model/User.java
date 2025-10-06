@@ -1,6 +1,7 @@
 package com.tk.hms.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.PositiveOrZero;
 
 @Entity
 public class User {
@@ -11,6 +12,8 @@ public class User {
 
     private String username;
     private String password;
+    
+    @PositiveOrZero(message = "Please enter zero or a positive integer value")
     private int role;
     private boolean active;
 
@@ -23,10 +26,10 @@ public class User {
     }
 
     // Getter and Setter for userName
-    public String getUserName() {
+    public String getUsername() {
         return username;
     }
-    public void setUserName(String userName) {
+    public void setUsername(String userName) {
         this.username = userName;
     }
 

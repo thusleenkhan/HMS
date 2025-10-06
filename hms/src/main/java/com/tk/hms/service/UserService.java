@@ -29,5 +29,10 @@ public class UserService {
 		}
 
 	}
+	public User saveUser(User user)
+	{
+		System.out.println("save method in service");
+		return userRepo.save(user);
+	}
 
 }
