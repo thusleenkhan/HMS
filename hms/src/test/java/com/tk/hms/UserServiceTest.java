@@ -11,7 +11,7 @@ import com.tk.hms.repository.UserRepository;
 import com.tk.hms.service.UserService;
 
 public class UserServiceTest {
-	 @Mock
+	 	@Mock
 	    private UserRepository userRepo;  // dependency mock
 
 	    private UserService userService;  // class under test
